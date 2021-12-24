@@ -14,7 +14,7 @@
 #define _DFROBOT_PH_H_
 
 #if ARDUINO >= 100
-#include "Arduino.h"
+#include <ESP8266WiFi.h>
 #else
 #include "WProgram.h"
 #endif
